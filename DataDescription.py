@@ -18,6 +18,6 @@ for col in categorical_cols:
 print(X.head())
 print(X.dtypes)
 
-print(min("realinc"))
+print('Real inc:',min(y["realrinc"]))
 
 
